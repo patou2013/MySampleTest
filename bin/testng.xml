@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="My First TestNG suite test" >
+
+  <test name="My First TestNG suite test " >
+   
+    <classes>
+       <class name="com.TestNG.TestNGBasic" />
+       <class name="com.TestNG.TestBasic2" />
+       <class name="com.TestNG.GoogleTitleTest" />
+       <class name="com.TestNG.TestNGFeatures" />
+       <class name="com.TestNG.ExceptionTimeOutTest" />       
+       <class name="com.TestNG.invocationCountTest" />
+       <class name="com.TestNG.GoogleTest" />     
+      
+       
+    </classes>
+    
+  </test>
+ 
+ 
+</suite>
